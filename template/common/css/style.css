@@ -1,0 +1,447 @@
+@charset "UTF-8";
+/* html body base
+===============================================================*/
+/*
+html ----------------------------------------------------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000;
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 100%;
+}
+
+a:link {
+  color: #343434;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #343434;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #343434;
+  text-decoration: none;
+}
+
+a:active {
+  color: #343434;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: bottom;
+}
+
+a {
+  outline: none;
+  color: #212020;
+  text-decoration: none;
+}
+
+a:hover {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid #cccccc;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* YUI 3.9.0 (build 5827) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
+body {
+  font: 14px/1.5 "游ゴシック", "Yu Gothic", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  *font: x-small;
+  *font-size: small;
+}
+
+select,
+input,
+button,
+textarea {
+  font: 99% arial, helvetica, clean, sans-serif;
+}
+
+table {
+  font: 100%;
+  font-size: inherit;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%;
+}
+
+#yui3-css-stamp.cssfonts {
+  display: none;
+}
+
+.l-footer {
+  padding: 50px 0;
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(rgba(30, 115, 160, 0.8)), to(rgba(30, 115, 160, 0.5)));
+  background: linear-gradient(to right, rgba(30, 115, 160, 0.8) 0%, rgba(30, 115, 160, 0.5) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* header
+===============================================================*/
+/* nav
+===============================================================*/
+/* layout
+===============================================================*/
+/* btn
+===============================================================*/
+/* nav
+===============================================================*/
+/* top
+===============================================================*/
+/* utility
+===============================================================*/
+.u-mt1em {
+  margin-top: 1em !important;
+}
+
+.u-mb0em {
+  margin-bottom: 0em !important;
+}
+
+.u-mb1em {
+  margin-bottom: 1em !important;
+}
+
+.u-mb2em {
+  margin-bottom: 2em !important;
+}
+
+.u-strongTxt {
+  font-size: 56px;
+}
+
+.u-marker {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #e1cdb4));
+  background: linear-gradient(transparent 60%, #e1cdb4 60%);
+  font-weight: bold;
+}
+
+.u-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.u-alCenter {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.u-spbw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.u-ta-c {
+  text-align: center !important;
+}
+
+.u-pc {
+  display: inline;
+}
+
+.u-tab {
+  display: none;
+}
+
+.u-sp {
+  display: none;
+}
+
+.u-sp_sm {
+  display: none;
+}
+
+.u-clearfix:after {
+  display: block;
+  height: 0.1px;
+  clear: both;
+  font-size: 0.1em;
+  line-height: 0;
+  content: " ";
+  visibility: hidden;
+}
+
+.u-clearfix {
+  display: inline-block;
+}
+
+/* exlude MacIE5 \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.u-clearfix {
+  display: block;
+}
+
+/* end MacIE5 */
+.u-clear {
+  clear: both;
+}
+@media screen and (max-width: 1150px) {
+  body {
+    color: #000;
+  }
+  .l-footer {
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 980px) {
+  body {
+    color: #000;
+  }
+  .l-footer {
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    color: #000;
+  }
+  .l-footer {
+    padding: 50px 0;
+  }
+  .u-tab {
+    display: inline;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    color: #000;
+  }
+}
+@media screen and (max-width: 640px) {
+  body {
+    color: #000;
+  }
+  .l-footer {
+    padding: 50px 0;
+  }
+  .u-pc {
+    display: none;
+  }
+  .u-sp {
+    display: inline;
+  }
+}
+@media screen and (max-width: 450px) {
+  body {
+    color: #000;
+  }
+  .l-footer {
+    padding: 50px 0;
+  }
+  .u-sp_sm {
+    display: inline;
+  }
+}

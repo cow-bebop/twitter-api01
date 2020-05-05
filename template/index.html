@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <link rel="stylesheet" type="text/css" href="common/css/style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1, maximum-scale=1"
+    />
+
+    <!--[if lt IE 9]>
+      <script src="common/js/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+          filter: none;
+        }
+      </style>
+    <![endif]-->
+
+    <title>twitter api テスト</title>
+  </head>
+  <body>
+    テストページです。
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+
+    <!-- <script src="path/to/my/store.legacy.min.js"></script> -->
+    <!-- <script type="text/javascript" src="common/js/main.js"></script> -->
+    <script>
+      var Twitter = require("twitter");
+
+      var client = new Twitter({
+        consumer_key: "Thba4G67l1PTf5CtOCxXmz258",
+        consumer_secret: "hTPHAFw3QexFDm33LW1b70FzNXo6JTP6oWuRKVzp6uOBF6c75N",
+        access_token_key: "1026774766793805824-BIpZqh8i6ZDtfF4KJDBKwQElss1p9w",
+        access_token_secret: "tQJpBMTRRwRVGXU7JNFm0c3LcCN3xjM2DkhNVhsEmuHxO"
+      });
+
+      var params = { screen_name: "nodejs" };
+      client.get("statuses/user_timeline", params, function(
+        error,
+        tweets,
+        response
+      ) {
+        if (!error) {
+          console.log(tweets);
+        }
+      });
+    </script>
+  </body>
+</html>
